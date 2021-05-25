@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(../imgs/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  position: relative;
+  /* background: #000; */
+  height: 105vh;
+}
+
+header img {
+  width: 110px;
+  transform: translate(60px, 40px);
+}
+
+main{
+  
+}
+
+.pizza-image {
+  position: absolute;
+  background-image: url(../imgs/pizza.png);
+  height: 109vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+}
+
+@media(min-width: 1600){
+  .pizza-image {
+    height:  105vh;
+   
+  }
+}
+
+.pizza-box-orange {background: #d47540;padding: 30px;/* height: 420px; */}
+
+.pizza-number {
+    background: transparent;
+    padding: 10px;
+    /* height: 130px; */
+}
+
+article.pizza-italian {
+    background: transparent;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    height: 100vh;
+    display: block;
+}
+
+section.pizza-content-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+article.pizza-infos {
+    width: 50%;
+    height: 100vh;
+}
+
+header {
+    position: absolute;
+}
+
+.pizza-box-orange {
+    text-align: right;
+}
+
+.pizza-box-orange h2 {
+    text-transform: uppercase;
+    width: 60%;
+    margin: 0 0 0 auto;
+    font-size: 44px;
+}
+
+.pizza-box-orange h3 {
+    margin: 60px 0 10px 0;
+}
+
+.pizza-box-orange p {
+    color: #2d2e33;
+    font-size: 17px;
+    max-width: 370px;
+    margin: 0px 0 0 auto;
+}
+
+.pizza-number {
+    text-align: revert;
+    color: #fff;
+    padding: 0 40px 0px 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pizza-number h2 {
+    text-align: right;
+    text-transform: uppercase;
+    color: #d47540;
+    margin: 240px 0 0px 0px;
+}
+
+.pizza-number p {
+    text-align: right;
+    font-size: 50px;
+}
+
+article.pizza-italian nav {
+  position: absolute;
+  bottom: 0;
+}
+
+article.pizza-italian h1 {
+  position: absolute;
+  top: 40%;
+  font-size: 50px;
+  text-transform: uppercase;
+  max-width: 110px;
+  padding: 0 0 0 60px;
+}
+
+article.pizza-italian nav a img {
+  width: 20px;
+  margin: 0 10px 0 1px;
+  padding: 0;
+}
+
+article.pizza-italian nav {
+  padding: 0 0 0 50px;
+}
+
+article.pizza-italian nav a {
+  display: inline-block;
+}
+
+nav ~ a {
+  position: absolute;
+  bottom: -30px;
+  left: 61px;
+  color: #fff;
+  text-decoration: none;
+}
